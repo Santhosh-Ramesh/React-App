@@ -1,0 +1,52 @@
+div .list{
+  border: 0;
+  margin: 0px 20px;
+  color: #fff;
+  width: 500px;
+  border-radius: 5px;
+  background-color: #bf07ac;
+}
+
+.list p{
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    position: relative;
+}
+
+.list >p >span{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.faicons{
+    margin: 0 5px;
+    font-size: 15px;
+}
+
+.list>p>input[type="text"]{
+    border: 0;
+    background: none;
+    color: #ffff;
+    font-size: 15px;
+    width: 430px;
+    margin: auto 0px;
+}
+
+.list>p>input[type="text"]:focus{
+    outline:none;
+}
+
+.list>p>input[type="checkbox"]:focus{
+    outline:none;
+}
+
+.list>p>input[type="checkbox"]{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.list>p>.completed{
+    text-decoration: line-through;
+    color: rgb(3, 3, 3);
+}
